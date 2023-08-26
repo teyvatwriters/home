@@ -1,0 +1,63 @@
+body {
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+  }
+
+header {
+    align-items: center; /* Align items vertically */
+    background-color: #444; /* Gray background color */
+    padding: 3px 200px;
+    border-radius: 20px;
+    font: monospace;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+	text-align: center; /* Center the navigation menu */
+    margin: 0 auto; /* Center the navigation menu horizontally */
+    max-width: 1200px; /* Set a maximum width for the navigation menu */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+	list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    margin: 0 1px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Default button color */
+    padding: 5px 15px;
+    transition: background-color 0.3s, color 0.3s; /* Transition on color change */
+}
+
+nav a:hover {
+    background-color: white; /* Background color on hover */
+    color: #444; /* Text color on hover */
+}
+
+.feature_box {
+    text-align: center;
+    left: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+.featurebanner {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
